@@ -1,5 +1,5 @@
 body {
-    font-family: "Didot", didot;
+    font-family: "avenir"
     padding: 25px;
     font-size: 110%;
     text-align: center;
@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Didot", didot;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
 }
 
