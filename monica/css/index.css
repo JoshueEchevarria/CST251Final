@@ -20,10 +20,6 @@ img {
     margin-right: auto;
   }
 
-img:hover {
-     transform: scale(1);
-}
-
 footer {
   left: 0;
   bottom: 0;
@@ -33,10 +29,12 @@ footer {
 }
 
 nav {
+  height: 30px;
   background-color: #C784AF;
   overflow: hidden;
-  border: solid 5px #C784A5;
-  width: 100%;
+  animation-name: first;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 nav a {
@@ -60,4 +58,11 @@ a:hover {
 #content img {
     width: 300px;
     height: auto;
+}
+
+@keyframes first {
+  0% {background-color: #E0C0D3;}
+  25% {background-color: #C784A5;}
+  50% {background-color: #7393C2;}
+  100% {background-color: #EFE4E6;}
 }

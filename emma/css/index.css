@@ -21,10 +21,6 @@ img {
     margin-right: auto;
   }
 
-img:hover {
-     transform: scale(1);
-}
-
 footer {
   left: 0;
   bottom: 0;
