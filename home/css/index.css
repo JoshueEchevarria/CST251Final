@@ -13,25 +13,18 @@ h1, h2, h3 {
 }
 
 img {
-    width: 1000px;
+    width: 1100px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-img:hover {
-     transform: scale(1.5);
-}
-
 #content img {
   width: 550px;
   height: auto;
 }
 
-#content img:hover {
-  transform: scale(1);
-}
 
 footer {
   left: 0;
@@ -42,9 +35,12 @@ footer {
 }
 
 nav {
-  background-color: #C784AF;
-  overflow: hidden;
-  border: solid 5px #C784A5;
+    height: 30px;
+    background-color: #C784AF;
+    overflow: hidden;
+    animation-name: first;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 nav a {
@@ -63,4 +59,11 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+}
+
+@keyframes first {
+  0% {background-color: #E0C0D3;}
+  25% {background-color: #C784A5;}
+  50% {background-color: #7393C2;}
+  100% {background-color: #EFE4E6;}
 }
