@@ -20,10 +20,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-
-img:hover {
-     transform: scale(1);
-}
+  
 
 footer {
   left: 0;
