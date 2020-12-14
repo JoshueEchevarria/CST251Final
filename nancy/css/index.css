@@ -35,8 +35,11 @@ footer {
 nav {
   background-color: #C784AF;
   overflow: hidden;
-  border: solid 5px #C784A5;
+  border: solid 3px #C784A5;
+  width: 100%;
 }
+
+
 
 nav a {
   color: #333333;
