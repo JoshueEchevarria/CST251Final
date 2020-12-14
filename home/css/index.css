@@ -21,7 +21,16 @@ img {
   }
 
 img:hover {
-     transform: scale(1);
+     transform: scale(1.5);
+}
+
+#content img {
+  width: 550px;
+  height: auto;
+}
+
+#content img:hover {
+  transform: scale(1);
 }
 
 footer {
