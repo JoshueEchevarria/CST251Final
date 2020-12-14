@@ -1,0 +1,63 @@
+body {
+    font-family: "Avenir";
+    padding: 25px;
+    font-size: 110%;
+    text-align: center;
+    color: #333333;
+    background-image: linear-gradient(#E0C0D3, #EFE4E6);
+}
+
+h1, h2, h3 {
+    font-family: 'Comfortaa', cursive;
+    text-transform: capitalize;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img:hover {
+     transform: scale(1);
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #B6C7DD;
+}
+
+nav {
+  background-color: #C784AF;
+  overflow: hidden;
+  border: solid 5px #C784A5;
+}
+
+nav a {
+  color: #333333;
+  text-align: center;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#content img {
+    width: 300px;
+    height: auto;
+}
